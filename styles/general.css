@@ -1,0 +1,195 @@
+@font-face {
+  font-family: "GemoshHeadline-Regular";
+  src: url("/Fonts/GemoshHeadline-Regular.woff2") format("woff2"),
+    url("/Fonts/GemoshHeadline-Regular.woff") format("woff"),
+    url("/Fonts/GemoshHeadline-Regular.ttf") format("truetype");
+}
+body {
+  display: flex;
+  flex-direction: column;
+  padding-left: 70px;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.background-image {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  object-fit: cover;
+  object-position: right;
+  z-index: -1;
+  filter: brightness(35%);
+}
+.background-divider {
+  display: flex;
+  position: absolute;
+  align-self: center;
+  background-color: black;
+  width: 4px;
+  height: 110%;
+  margin-top: -10%;
+  z-index: -3;
+}
+
+/* HEADER */
+#background-color {
+  height: 5000px;
+  width: 70px;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  position: absolute;
+  position: fixed;
+  z-index: -10;
+}
+#header {
+  width: 70px;
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  border-width: 0 4px 0 0;
+  border-style: solid;
+  border-color: white;
+  z-index: 20;
+}
+#header .header-icons {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 2%;
+  align-items: center;
+  justify-content: space-between;
+  height: 200px;
+  width: 40px;
+}
+#header .header-icons .icon {
+  display: flex;
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  filter: brightness(0) invert(1);
+  transition: filter 0.15s, height 0.15s, width 0.15s;
+  cursor: pointer;
+}
+#header .header-icons .icon:hover {
+  filter: none;
+  width: 38px;
+}
+#header .name {
+  width: 50px;
+  height: auto;
+  align-self: center;
+}
+#divider {
+  height: 5px;
+  width: 50px;
+  background-color: rgb(198, 65, 47);
+}
+.social-media-icons {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 270px;
+}
+.icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  filter: brightness(0) invert(1);
+  transition: filter 0.15s, height 0.15s, width 0.15s;
+  cursor: pointer;
+}
+
+.icon:hover {
+  filter: none;
+  height: 45px;
+  width: 45px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  height: 279px;
+  width: 100%;
+  margin-top: 80px;
+  margin-left: -4px;
+  position: relative;
+  z-index: 10;
+}
+footer .divider {
+  height: 4.5px;
+  width: 100%;
+  margin-top: 8.5px;
+  margin-left: -8px;
+  background-color: rgb(198, 65, 47);
+}
+footer .footer-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+footer .left-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+footer .about-us-section,
+footer .careers-section,
+footer .conditions-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+footer .about-us-section .title,
+footer .careers-section .title {
+  font-family: "GemoshHeadline-Regular", sans-serif;
+  font-size: 40px;
+  color: rgb(198, 65, 47);
+  cursor: pointer;
+}
+footer .selection {
+  font-family: Montserrat;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+footer .conditions-section .title {
+  font-family: "GemoshHeadline-Regular", sans-serif;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+footer .conditions-section .privacy {
+  font-family: "GemoshHeadline-Regular", sans-serif;
+  font-size: 40px;
+  color: rgb(198, 65, 47);
+  cursor: pointer;
+  transition: color 0.15s;
+}
+footer .conditions-section .title:hover {
+  color: rgb(156, 156, 156);
+}
+footer .selection:hover {
+  color: rgb(156, 156, 156);
+}

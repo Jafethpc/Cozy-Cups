@@ -1,0 +1,194 @@
+/* TOP SECTION - HOME PAGE */
+.top-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100%;
+}
+.top-section .home-page-top-section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-left: 8%;
+  justify-content: space-between;
+}
+.top-section #title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2%;
+}
+.top-section #name {
+  display: flex;
+  width: 75%;
+  margin: 0 2% 0 0;
+}
+#logo {
+  display: flex;
+  object-fit: contain;
+  height: 180px;
+  width: 15%;
+}
+.top-section .heading-section {
+  display: flex;
+  flex-direction: column;
+}
+.top-section .heading-section .header {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 450%;
+  width: 68%;
+  margin: 0 0 0 2%;
+}
+.top-section #description {
+  font-family: Montserrat;
+  font-weight: 500;
+  margin: 2% 0 3% 2%;
+}
+
+/* MID SECTION - HOME PAGE */
+.mid-section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin: 8% 0 0 0;
+}
+
+/* WHO ARE WE SECTION */
+.who-are-we {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+.who-are-we .left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+.who-are-we .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+.who-are-we .right .header {
+  display: flex;
+  font-family: Gemosh Extrude;
+  font-size: 9rem;
+  color: rgb(198, 65, 47);
+  text-align: center;
+  margin: 0 0 0 2%;
+}
+.who-are-we .right .description {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+  margin: 0 0 0 2%;
+}
+.pouring-coffee {
+  display: flex;
+  object-fit: contain;
+  background-color: rgb(198, 65, 47);
+  width: 100%;
+  height: 100%;
+  z-index: -4;
+}
+
+/* OUR QUALITY! SECTION */
+.our-quality {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10% 0;
+  width: 80%;
+}
+.our-quality .top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.our-quality .header {
+  font-family: "GemoshHeadline-Regular", sans-serif;
+  font-size: 14rem;
+  color: rgb(198, 65, 47);
+  text-shadow: 7px 7px black, 0 0 black, 0 0 black, 0 0 black;
+  position: relative;
+  margin: 0 0 -20% 0;
+  text-align: center;
+  z-index: 6;
+}
+.coffee-beans {
+  position: relative;
+  width: 90%;
+  z-index: 5;
+}
+.our-quality .bot .description {
+  background-color: rgb(55, 51, 48);
+  font-family: Montserrat;
+  font-size: 170%;
+  color: white;
+  text-align: center;
+  position: relative;
+  padding: 1.5% 10%;
+  z-index: 5;
+}
+
+/* HOURS & DIRECTION SECTION */
+.hours-direction {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
+.hours-direction .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(198, 65, 47);
+  width: 50%;
+  z-index: -5;
+}
+.hours-direction .left .header {
+  font-family: Gemosh Extrude;
+  font-size: 700%;
+  text-align: center;
+  margin-bottom: 2%;
+  padding: 0 5%;
+}
+.hours-direction .left .hours {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Montserrat;
+  font-size: 150%;
+  padding: 0 5%;
+}
+.hours-direction .left .divider {
+  background-color: white;
+  width: 100%;
+  height: 4px;
+  margin: 5% 0;
+}
+.hours-direction .left .address {
+  font-family: Montserrat;
+  font-size: 1.8rem;
+  padding: 0 5%;
+}
+.hours-direction .right {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.cafe-image {
+  width: 100%;
+}
