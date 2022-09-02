@@ -32,11 +32,11 @@
   height: 180px;
   width: 15%;
 }
-.top-section .heading-section {
+.top-section .heading {
   display: flex;
   flex-direction: column;
 }
-.top-section .heading-section .header {
+.top-section .heading .header {
   font-family: Montserrat;
   font-weight: 500;
   font-size: 450%;
